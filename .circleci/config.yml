@@ -25,6 +25,7 @@ jobs:
       - checkout
 
       - run: chmod +x gradlew
+      
       - run: ./.circleci/scripts/decrypt_secret.sh
 
       # Download and cache dependencies
